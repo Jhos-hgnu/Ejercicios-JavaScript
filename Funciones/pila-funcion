@@ -1,0 +1,6 @@
+Imagina una función A que llama a B, y B a C.
+Describe el orden de ejecución y cómo se comportaría la pila si C lanza un error.
+
+
+#Primero se ejecutaría la función A, después B y por último C
+#El comportamiento de la pila p
