@@ -9,6 +9,14 @@ sumaHasta(10) → 55 */
 
 function sumaHasta(numero){
 
+    if(numero == 0){
+        return numero;
+    }
+    
+    numero += sumaHasta(numero - 1);
 
+    return numero;
 
 }
+
+console.log(sumaHasta(5));
