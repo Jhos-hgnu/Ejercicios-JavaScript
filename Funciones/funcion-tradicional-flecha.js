@@ -6,3 +6,4 @@ function calcularAreaRectangulo(base, altura) {
 const calcularAreaRectanguloF = (base, altura) => console.log(base * altura);
 
 calcularAreaRectanguloF(5, 8)
+//Prueba
